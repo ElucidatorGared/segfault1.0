@@ -14,12 +14,6 @@ public class ingots {
                     //  helper.register(new ResourceLocation(MODID, "_ingot"), new Item(new Item.Properties())); Шаблон
                     helper.register(new ResourceLocation(MODID, "steel_ingot"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "dark_steel_ingot"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "infinity_ingot"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "neutronium_ingot"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "crystal_matrix_ingot"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "awakened_draconium_ingot"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "draconium_ingot"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "sky_steel_ingot"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "blood_steel_ingot"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "vingetum_ingot"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "infernal_ingot"), new Item(new Item.Properties()));
