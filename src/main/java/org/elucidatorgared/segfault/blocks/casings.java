@@ -1,6 +1,8 @@
 package org.elucidatorgared.segfault.blocks;
 
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -10,41 +12,51 @@ import net.minecraftforge.registries.RegisterEvent;
 import static org.elucidatorgared.segfault.Segfault.MODID;
 
 public class casings {
+    private static final String[] CASING_NAMES = {
+            "phytogenic_incubator_casing",
+            "crusher_casing",
+            "furnace_casing",
+            "avaritia_collector_casing",
+            "floral_collector_casing",
+            "ore_miner_casing",
+            "soul_extractor_casing",
+            "soul_creator_casing",
+            "plasma_generator_casing",
+            "steam_turbine_casing",
+            "nuclear_reactor_casing",
+            "nephrite_extractor_casing",
+            "star_alloy_extractor_casing",
+            "nightmare_world_portal_casing",
+            "mirror_stabilizer_casing",
+            "superalloy_cooler_casing",
+            "black_hole_destroyer_casing",
+            "spark_of_destruction_casing",
+            "spark_of_creation_casing",
+            "blood_altar_casing",
+            "exoworld_sphere_casing",
+            "gaia_all_seeing_eye_casing",
+            "infinity_creator_casing",
+            "dragon_fusion_casing",
+            "blood_extractor_casing",
+            "lightning_generator_casing",
+            "thunder_earth_casing",
+            "time_space_bridge_casing",
+            "space_destroyer_casing"
+    };
     public void register(RegisterEvent event) {
-        event.register(ForgeRegistries.Keys.BLOCKS,
-                helper -> {
-                //  helper.register(new ResourceLocation(MODID, "_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL))); Шаблон
-                    helper.register(new ResourceLocation(MODID, "phytogenic_incubator_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "crusher_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "furnace_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "avaritia_collector_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "floral_collector_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "ore_miner_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "soul_extractor_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "soul_creator_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "plasma_generator_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "steam_turbine_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "nuclear_reactor_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "nephrite_extractor_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "star_alloy_extractor_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "nightmare_world_portal_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "mirror_stabilizer_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "superalloy_cooler_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "black_hole_destroyer_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "spark_of_destruction_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "spark_of_creation_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "blood_altar_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "exoworld_sphere_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "gaia_all_seeing_eye_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "infinity_creator_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "dragon_fusion_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "blood_extractor_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "lightning_generator_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "thunder_earth_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "time_space_bridge_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
-                    helper.register(new ResourceLocation(MODID, "space_destroyer_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
+        event.register(ForgeRegistries.Keys.BLOCKS, helper -> {
+            for (String name : CASING_NAMES) {
+                helper.register(new ResourceLocation(MODID, name),
+                        new Block(BlockBehaviour.Properties.of().strength(60.0F, 9000.0F).sound(SoundType.METAL)));
+            }
+        });
 
-        }
-        );
+        event.register(ForgeRegistries.Keys.ITEMS, helper -> {
+            for (String name : CASING_NAMES) {
+                Block block = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(MODID, name));
+                helper.register(new ResourceLocation(MODID, name),
+                        new BlockItem(block, new Item.Properties()));
+            }
+        });
     }
 }
