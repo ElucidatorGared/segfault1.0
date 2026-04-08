@@ -8,6 +8,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.elucidatorgared.segfault.blocks.casings;
+import org.elucidatorgared.segfault.items.alloys;
+import org.elucidatorgared.segfault.items.ingots;
+import org.elucidatorgared.segfault.items.plates;
 import org.elucidatorgared.segfault.items.rods;
 
 @Mod(Segfault.MODID)
@@ -23,6 +27,10 @@ public class Segfault {
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
         modEventBus.addListener(new rods()::register);
+        modEventBus.addListener(new plates()::register);
+        modEventBus.addListener(new casings()::register);
+        modEventBus.addListener(new alloys()::register);
+        modEventBus.addListener(new ingots()::register);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
