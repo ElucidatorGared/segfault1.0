@@ -13,6 +13,7 @@ public class casings {
     public void register(RegisterEvent event) {
         event.register(ForgeRegistries.Keys.BLOCKS,
                 helper -> {
+                //  helper.register(new ResourceLocation(MODID, "_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL))); Шаблон
                     helper.register(new ResourceLocation(MODID, "phytogenic_incubator_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
                     helper.register(new ResourceLocation(MODID, "crusher_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
                     helper.register(new ResourceLocation(MODID, "furnace_casing"), new Block(BlockBehaviour.Properties.of().strength(20.0F, 600.0F).sound(SoundType.METAL)));
