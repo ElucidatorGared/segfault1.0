@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "segfault:item/awakened_draconium_rod"
+  }
+}

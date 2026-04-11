@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "segfault:item/blood_steel_rod"
+  }
+}
