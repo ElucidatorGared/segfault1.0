@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "segfault:item/andromed_alloy_plate"
+  }
+}

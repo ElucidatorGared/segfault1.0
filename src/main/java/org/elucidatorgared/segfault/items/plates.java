@@ -16,7 +16,6 @@ public class plates {
                     helper.register(new ResourceLocation(MODID, "dark_steel_plate"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "nightmare_alloy_plate"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "andromed_alloy_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "dark_matter_plate"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "infinity_alloy_plate"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "infinity_plate"), new Item(new Item.Properties()));
                     helper.register(new ResourceLocation(MODID, "neutronium_plate"), new Item(new Item.Properties()));
