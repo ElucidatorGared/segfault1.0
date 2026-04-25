@@ -72,5 +72,10 @@
   "item.segfault.blood_steel_plate": "Пластина Из Кровавой Стали",
   "item.segfault.vingetum_plate": "Пластина Из Вингетума",
   "item.segfault.infernal_plate": "Пластина Из Адского Металла",
-  "item.segfault.void_alloy_plate": "Пластина Из Пустотного Сплава"
+  "item.segfault.void_alloy_plate": "Пластина Из Пустотного Сплава",
+
+  "item.segfault.singularity_dreams" : "Сингулярность Мечтаний",
+  "item.segfault.singularity_nightmares" : "Сингулярность Кошмаров",
+  "item.segfault.dark_matter" : "Тёмная материя",
+  "item.segfault.eye_dead" : "Глаз Смерти"
 }

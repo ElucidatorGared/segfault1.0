@@ -11,11 +11,12 @@ public class others {
     public void register(RegisterEvent event) {
         event.register(ForgeRegistries.Keys.ITEMS,
                 helper -> {
-                    //  helper.register(new ResourceLocation(MODID, "_..."), new Item(new Item.Properties())); Шаблон
+                    //  helper.register(new ResourceLocation(MODID, "name"), new Item(new Item.Properties())); Шаблон
                     helper.register(new ResourceLocation(MODID, "dark_matter"), new Item(new Item.Properties()));
-
-
-                }
+                    helper.register(new ResourceLocation(MODID, "eye_dead"), new Item(new Item.Properties()));
+                    helper.register(new ResourceLocation(MODID, "singularity_nightmares"), new Item(new Item.Properties()));
+                    helper.register(new ResourceLocation(MODID, "singularity_dreams"), new Item(new Item.Properties()));
+        }
         );
     }
 }

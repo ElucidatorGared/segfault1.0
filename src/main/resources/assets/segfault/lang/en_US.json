@@ -72,5 +72,10 @@
   "item.segfault.blood_steel_plate": "Blood Steel Plate",
   "item.segfault.vingetum_plate": "Vingetum Plate",
   "item.segfault.infernal_plate": "Infernal Plate",
-  "item.segfault.void_alloy_plate": "Void Alloy Plate"
+  "item.segfault.void_alloy_plate": "Void Alloy Plate",
+
+  "item.segfault.singularity_dreams" : "Singularity of Dreams",
+  "item.segfault.singularity_nightmares" : "Singularity of Nighmares",
+  "item.segfault.dark_matter" : "Dark Matter",
+  "item.segfault.eye_dead" : "Eye of Death"
 }
