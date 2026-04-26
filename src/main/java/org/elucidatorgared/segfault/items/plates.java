@@ -4,6 +4,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegisterEvent;
+import org.elucidatorgared.segfault.CreativeModTab;
 
 import static org.elucidatorgared.segfault.Segfault.MODID;
 
@@ -11,24 +12,29 @@ public class plates {
     public void register(RegisterEvent event) {
         event.register(ForgeRegistries.Keys.ITEMS,
                 helper -> {
-                //  helper.register(new ResourceLocation(MODID, "_plate"), new Item(new Item.Properties())); Шаблон
-                    helper.register(new ResourceLocation(MODID, "steel_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "dark_steel_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "nightmare_alloy_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "andromed_alloy_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "infinity_alloy_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "infinity_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "neutronium_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "crystal_matrix_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "awakened_draconium_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "draconium_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "sky_steel_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "blood_steel_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "vingetum_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "infernal_plate"), new Item(new Item.Properties()));
-                    helper.register(new ResourceLocation(MODID, "void_alloy_plate"), new Item(new Item.Properties()));
+                //  registerPlate(helper, "_plate"); Шаблон
+                    registerPlate(helper, "steel_plate");
+                    registerPlate(helper, "dark_steel_plate");
+                    registerPlate(helper, "nightmare_alloy_plate");
+                    registerPlate(helper, "andromed_alloy_plate");
+                    registerPlate(helper, "infinity_alloy_plate");
+                    registerPlate(helper, "infinity_plate");
+                    registerPlate(helper, "neutronium_plate");
+                    registerPlate(helper, "crystal_matrix_plate");
+                    registerPlate(helper, "awakened_draconium_plate");
+                    registerPlate(helper, "draconium_plate");
+                    registerPlate(helper, "sky_steel_plate");
+                    registerPlate(helper, "blood_steel_plate");
+                    registerPlate(helper, "vingetum_plate");
+                    registerPlate(helper, "infernal_plate");
+                    registerPlate(helper, "void_alloy_plate");
 
                 }
         );
+    }
+    private void registerPlate(RegisterEvent.RegisterHelper<Item> helper, String name) {
+        Item item = new Item(new Item.Properties());
+        helper.register(new ResourceLocation(MODID, name), item);
+        CreativeModTab.ALL_ITEMS.add(item);
     }
 }

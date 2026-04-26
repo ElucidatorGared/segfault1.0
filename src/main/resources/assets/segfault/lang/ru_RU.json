@@ -45,7 +45,6 @@
   "item.segfault.infernal_rod": "Стержень Из Адского Металла",
   "item.segfault.void_alloy_rod": "Стержень Из Пустотного Сплава",
 
-  "item.segfault.steel_ingot": "Стальной Слиток",
   "item.segfault.dark_steel_ingot": "Слиток Тёмной Стали",
   "item.segfault.blood_steel_ingot": "Слиток Кровавой Стали",
   "item.segfault.vingetum_ingot": "Слиток Вингетума",
@@ -74,8 +73,10 @@
   "item.segfault.infernal_plate": "Пластина Из Адского Металла",
   "item.segfault.void_alloy_plate": "Пластина Из Пустотного Сплава",
 
-  "item.segfault.singularity_dreams" : "Сингулярность Мечтаний",
-  "item.segfault.singularity_nightmares" : "Сингулярность Кошмаров",
-  "item.segfault.dark_matter" : "Тёмная материя",
-  "item.segfault.eye_dead" : "Глаз Смерти"
+  "item.segfault.singularity_dreams": "Сингулярность Мечтаний",
+  "item.segfault.singularity_nightmares": "Сингулярность Кошмаров",
+  "item.segfault.dark_matter": "Тёмная материя",
+  "item.segfault.eye_dead": "Глаз Смерти",
+  "item_group.segfault.segfault_tab": "Segfault",
+  "segfault.segfault_tab": "Segfault"
 }

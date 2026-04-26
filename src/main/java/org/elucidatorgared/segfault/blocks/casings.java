@@ -8,6 +8,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegisterEvent;
+import org.elucidatorgared.segfault.CreativeModTab;
 
 import static org.elucidatorgared.segfault.Segfault.MODID;
 
@@ -43,6 +44,7 @@ public class casings {
             "thunder_earth_casing",
             "time_space_bridge_casing"
     };
+
     public void register(RegisterEvent event) {
         event.register(ForgeRegistries.Keys.BLOCKS, helper -> {
             for (String name : CASING_NAMES) {
@@ -54,8 +56,9 @@ public class casings {
         event.register(ForgeRegistries.Keys.ITEMS, helper -> {
             for (String name : CASING_NAMES) {
                 Block block = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(MODID, name));
-                helper.register(new ResourceLocation(MODID, name),
-                        new BlockItem(block, new Item.Properties()));
+                BlockItem blockItem = new BlockItem(block, new Item.Properties());
+                helper.register(new ResourceLocation(MODID, name), blockItem);
+                CreativeModTab.ALL_ITEMS.add(blockItem);
             }
         });
     }

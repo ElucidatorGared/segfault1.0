@@ -45,7 +45,6 @@
   "item.segfault.infernal_rod": "Infernal Rod",
   "item.segfault.void_alloy_rod": "Void Alloy Rod",
 
-  "item.segfault.steel_ingot": "Steel Ingot",
   "item.segfault.dark_steel_ingot": "Dark Steel Ingot",
   "item.segfault.blood_steel_ingot": "Blood Steel Ingot",
   "item.segfault.vingetum_ingot": "Vingetum Ingot",
@@ -77,5 +76,8 @@
   "item.segfault.singularity_dreams" : "Singularity of Dreams",
   "item.segfault.singularity_nightmares" : "Singularity of Nighmares",
   "item.segfault.dark_matter" : "Dark Matter",
-  "item.segfault.eye_dead" : "Eye of Death"
+  "item.segfault.eye_dead" : "Eye of Death",
+
+  "item_group.segfault.segfault_tab": "Segfault",
+  "segfault.segfault_tab": "Segfault"
 }

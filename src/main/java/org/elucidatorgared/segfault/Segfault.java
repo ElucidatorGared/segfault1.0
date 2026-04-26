@@ -29,6 +29,7 @@ public class Segfault {
         modEventBus.addListener(new alloys()::register);
         modEventBus.addListener(new ingots()::register);
         modEventBus.addListener(new others()::register);
+        CreativeModTab.CREATIVE_TABS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
