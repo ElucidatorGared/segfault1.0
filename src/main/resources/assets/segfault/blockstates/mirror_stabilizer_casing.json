@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "segfault:block/mirror_stabilizer_casing"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "segfault:block/casings/gaia_all_seeing_eye_casing"
+  }
+}

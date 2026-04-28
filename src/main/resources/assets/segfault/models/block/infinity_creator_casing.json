@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "segfault:block/casings/infinity_creator_casing"
+  }
+}

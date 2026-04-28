@@ -42,7 +42,8 @@ public class casings {
             "steam_turbine_casing",
             "superalloy_cooler_casing",
             "thunder_earth_casing",
-            "time_space_bridge_casing"
+            "time_space_bridge_casing",
+            "pandora_casing"
     };
 
     public void register(RegisterEvent event) {

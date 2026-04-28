@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "segfault:block/plasma_generator_casing"
+    }
+  }
+}

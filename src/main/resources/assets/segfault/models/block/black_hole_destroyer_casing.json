@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "segfault:block/casings/black_hole_destroyer_casing"
+  }
+}

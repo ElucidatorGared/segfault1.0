@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "segfault:block/ore_miner_casing"
+    }
+  }
+}

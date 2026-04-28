@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "segfault:block/casings/blood_extractor_casing"
+  }
+}
