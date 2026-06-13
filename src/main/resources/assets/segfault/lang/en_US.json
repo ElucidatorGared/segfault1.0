@@ -78,6 +78,8 @@
   "item.segfault.singularity_nightmares" : "Singularity of Nighmares",
   "item.segfault.dark_matter" : "Dark Matter",
   "item.segfault.eye_dead" : "Eye of Death",
+  "item.segfault.coin_dreams": "Coin of Reverie",
+  "item.segfault.coin_nightmares": "Nightmare's Coin",
 
   "item_group.segfault.segfault_tab": "Segfault",
   "segfault.segfault_tab": "Segfault"

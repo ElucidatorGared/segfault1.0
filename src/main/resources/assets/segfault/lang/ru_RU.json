@@ -78,5 +78,7 @@
   "item.segfault.dark_matter": "Тёмная материя",
   "item.segfault.eye_dead": "Глаз Смерти",
   "item_group.segfault.segfault_tab": "Segfault",
+  "item.segfault.coin_dreams": "Монета Мечтаний",
+  "item.segfault.coin_nightmares": "Монета Кошмаров",
   "segfault.segfault_tab": "Segfault"
 }

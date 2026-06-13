@@ -17,6 +17,8 @@ public class others {
                   registerOthers(helper, "eye_dead");
                   registerOthers(helper, "singularity_nightmares");
                   registerOthers(helper, "singularity_dreams");
+                  registerOthers(helper, "coin_nightmares");
+                  registerOthers(helper, "coin_dreams");
         }
         );
     }
